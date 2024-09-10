@@ -1,8 +1,9 @@
 {
   "window.zoomLevel": 1,
+  "editor.fontSize": 26,
+  "editor.hover.enabled": true,
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
-  "editor.fontSize": 26,
   "terminal.integrated.fontSize": 24,
   "editor.rulers": [80, 120],
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
@@ -17,13 +18,13 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.tabSize": 4,
-    "editor.insertSpaces": false,
-    "editor.formatOnSave": true
-    // "editor.codeActionsOnSave": {
-    //   "source.fixAll": true,
-    //   "source.fixAll.unusedImports": false,
-    //   "source.organizeImports": true
-    // }
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.unusedImports": false,
+      "source.organizeImports": true
+    }
   },
   "python.languageServer": "Pylance",
   "python.formatting.autopep8Args": [
