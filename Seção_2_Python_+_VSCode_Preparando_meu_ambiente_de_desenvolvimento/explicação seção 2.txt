@@ -1,0 +1,1 @@
+somente explicação quanto a preparação do ambiente e instalação do python em varias plataformas (linux, windows, mac)
